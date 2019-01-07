@@ -14,3 +14,4 @@ run:
   path: /bin/bash
   args:
   - repo-develop/ci/tasks/merge-release-branch.sh
+
