@@ -12,4 +12,4 @@ outputs:
 run:
   path: /bin/bash
   args:
-  - repo-release/ci/tasks/merge-release-branch.sh
+  - repo-develop/ci/tasks/merge-release-branch.sh
