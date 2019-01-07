@@ -178,4 +178,4 @@ jobs:
         params:
           manifest: repo/manifest.yml
           path: output/demo.jar
-          current_app_name: concourse-ci-demo-minseok
+          current_app_name: concourse-ci-demo-prod
