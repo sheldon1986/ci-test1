@@ -79,7 +79,7 @@ jobs:
         params:
           manifest: repo/manifest-dev.yml
           path: output/demo.jar
-          current_app_name: concourse-ci-demo-minseok-dev
+          current_app_name: concourse-ci-demo-dev
 
   - name: pass-dev
     plan:
@@ -119,7 +119,7 @@ jobs:
         params:
           manifest: repo/manifest-staging.yml
           path: output/demo.jar
-          current_app_name: concourse-ci-demo-minseok-staging
+          current_app_name: concourse-ci-demo-stg
 
   - name: pass-stg
     plan:
